@@ -18,5 +18,5 @@ Using data from **258 countries and regions** across **over 50 years (1960–201
 
 > Note: Due to file size limits on GitHub, the original World Bank dataset (`WDICSV.csv`, ~195MB) is **not included in this repository**.  
 > The data can be downloaded from:  
-> [World Bank WDI Dataset (via Kaggle)](https://www.kaggle.com/datasets/worldbank/world-development-indicators)
+> [World Bank WDI Dataset]([https://www.kaggle.com/datasets/worldbank/world-development-indicators](https://datacatalog.worldbank.org/search/dataset/0037712/World-Development-Indicators))
 
