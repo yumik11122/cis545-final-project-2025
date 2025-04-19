@@ -84,7 +84,7 @@ pip install -r requirements.txt
 
 ## Data Sources
 
-- **World Bank** – [World Development Indicators (WDI)](https://databank.worldbank.org/source/world-development-indicators)  
+- **World Bank** – [World Development Indicators (WDI)](https://datacatalog.worldbank.org/search/dataset/0037712/World-Development-Indicators)  
 - **Kaggle** – [Health, Nutrition and Population Statistics](https://www.kaggle.com/datasets/worldbank/health-nutrition-and-population-statistics)
 
 ---
