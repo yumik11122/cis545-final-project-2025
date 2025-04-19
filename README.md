@@ -36,7 +36,7 @@ To install the required packages, you may run:
 
 ```bash
 pip install -r requirements.txt
-
+```
 ---
 
 ## Methods & Tools
