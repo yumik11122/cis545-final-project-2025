@@ -7,6 +7,13 @@ Using data from **258 countries and regions** across **over 50 years (1960–201
 ---
 
 ## Repository Structure
-
+```
+.
+├── 545-Group-Project-v4.ipynb            # Final project notebook
+├── data/
+│   ├── WDICSV.csv                        # World Bank indicators (cleaned)
+│   └── full_country_region_mapping.csv   # Country-to-region mapping
+└── README.md                             # This file
+```
 
 
