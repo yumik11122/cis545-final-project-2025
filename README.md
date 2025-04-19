@@ -2,8 +2,7 @@
 
 ## Authors
 
-This project was completed as part of the **CIS 5450 Big Data Analytics course** at the University of Pennsylvania (Spring 2025),  
-by a team of 3 students (names withheld for privacy).
+This project was completed as part of the **CIS 5450 Big Data Analytics course** at the University of Pennsylvania (Spring 2025), by a team of 3 students (names withheld for privacy).
 
 ---
 
