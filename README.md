@@ -36,3 +36,59 @@ To install the required packages, you may run:
 
 ```bash
 pip install -r requirements.txt
+
+---
+
+## Methods & Tools
+
+- **Data Cleaning & Filtering**  
+- **Exploratory Data Analysis (EDA)**: correlation heatmaps, scatterplots, and boxplots  
+- **Unsupervised Learning**: K-means clustering  
+- **Supervised Learning**: Logistic Regression and Random Forest  
+- **Visualization**: Seaborn, Matplotlib  
+- **Tools**: Python, Pandas, Scikit-learn, Jupyter Notebook
+
+---
+
+## Key Findings
+
+- A **moderate negative correlation** (r = -0.43) was found between GDP per capita and infant mortality rate.
+- GDP per capita alone was sufficient to classify countries as high risk (≥ 40 deaths/1,000) with:
+  - **84% accuracy (Random Forest)**
+  - **79% accuracy (Logistic Regression)**
+
+---
+
+## Policy Implications
+
+- **Targeted Funding**: A 1% increase in GDP allocated to healthcare in the lowest-GDP countries could reduce predicted infant mortality by ~12%.  
+- **Education Synergy**: Countries above the median education spending exhibited 15% lower infant mortality at similar income levels.
+
+---
+
+## Limitations
+
+- The models rely on a single economic indicator (GDP per capita).
+- Health-specific variables (e.g., immunization rates) were not yet included.
+- Gaps in post-2015 data may affect time-series robustness.
+
+---
+
+## Future Directions
+
+1. Integrate additional health metrics (e.g., immunization, healthcare access).  
+2. Extend the time range using WHO 2024+ datasets.  
+3. Deploy interactive dashboards via Streamlit or Plotly Dash.
+
+---
+
+## Data Sources
+
+- **World Bank** – [World Development Indicators (WDI)](https://databank.worldbank.org/source/world-development-indicators)  
+- **Kaggle** – [Health, Nutrition and Population Statistics](https://www.kaggle.com/datasets/worldbank/health-nutrition-and-population-statistics)
+
+---
+
+## Authors
+
+This project was completed as part of the **CIS 5450 Big Data Analytics course** at the University of Pennsylvania (Spring 2025), by a team of 3 students.
