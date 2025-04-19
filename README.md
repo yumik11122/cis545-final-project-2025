@@ -1,8 +1,29 @@
 # CIS 545 Final Project (Spring 2025) – Global Health Inequality Analysis
 
 ## Overview
-This project investigates the relationship between GDP per capita and infant mortality using global economic and health data provided by the World Bank and Kaggle.  
-Using data from **258 countries and regions** across **over 50 years (1960–2015)**, we apply machine learning models to predict countries at high risk of infant mortality (≥ 40 deaths per 1,000 live births), based solely on GDP per capita.
+
+Global health inequality remains one of the most pressing challenges of our time. While some countries have made significant progress in healthcare, others continue to face high infant mortality, limited access to care, and poor health outcomes.
+
+This project investigates how economic indicators — particularly GDP per capita — relate to infant mortality and other health outcomes across 258 countries and regions, using World Bank data from 1960 to 2015. 
+
+We apply a combination of:
+- Exploratory Data Analysis (EDA)
+- Supervised learning models (Logistic Regression, Random Forest)
+- Unsupervised clustering (K-means)
+
+Our analysis reveals a **strong negative correlation (r = -0.43)** between GDP per capita and infant mortality. Both machine learning models confirm that GDP per capita alone is a powerful predictor of countries with high infant mortality rates (≥ 40 deaths per 1,000 live births), with **Random Forest achieving 84% accuracy**.
+
+### Key Insights
+- Countries in the lowest income quartile have significantly higher infant mortality.
+- Increased education spending is associated with lower infant mortality, even at similar income levels.
+- Adolescent fertility, life expectancy, and immunization rates further help distinguish country-level health disparities.
+
+### Policy Implications
+Our findings support targeted investment in low-income regions, particularly in healthcare and education. Even modest improvements in spending may lead to meaningful reductions in infant mortality.
+
+---
+
+This project highlights how publicly available data and simple machine learning models can offer powerful insights into global health inequality and support data-informed public policy.
 
 ---
 
