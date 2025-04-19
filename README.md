@@ -84,8 +84,8 @@ pip install -r requirements.txt
 
 ## Data Sources
 
+- **Kaggle** – [Health, Nutrition and Population Statistics](https://www.kaggle.com/datasets/theworldbank/health-nutrition-and-population-statistics)
 - **World Bank** – [World Development Indicators (WDI)](https://datacatalog.worldbank.org/search/dataset/0037712/World-Development-Indicators)  
-- **Kaggle** – [Health, Nutrition and Population Statistics](https://www.kaggle.com/datasets/worldbank/health-nutrition-and-population-statistics)
 
 ---
 
