@@ -30,16 +30,21 @@ We apply a combination of:
 Our analysis reveals a **strong negative correlation (r = -0.43)** between GDP per capita and infant mortality. Both machine learning models confirm that GDP per capita alone is a powerful predictor of countries with high infant mortality rates (≥ 40 deaths per 1,000 live births), with **Random Forest achieving 84% accuracy**.
 
 ### Key Findings
-- **Clear economic-health link**: Our exploratory analysis confirmed a strong negative relationship between GDP per capita and infant mortality, using World Bank data across 258 countries and regions from 1960 to 2015.
 
-- **Policy-relevant impact**: Among the lowest-GDP countries, diverting just 1% of GDP toward healthcare was associated with a ~12% reduction in infant mortality. For example, in a country with a $50B GDP, this equates to approx. $500M and could potentially save 60,000 infants — or ~$8,300 per life saved.
+- **Clear economic–health link**: Our exploratory analysis confirmed a strong negative relationship between GDP per capita and infant mortality, using World Bank data across 258 countries and regions from 1960 to 2015.
 
-- **Model accuracy**: Using GDP per capita alone, our supervised models achieved:
-  - **Logistic Regression**: 79% accuracy  
-  - **Random Forest**: 84% accuracy  
-  Accuracy refers to correct classification of countries as high- or low-risk for infant mortality.
+- **Policy-relevant impact**: Among the lowest–GDP countries, diverting just 1% of GDP toward healthcare was associated with a ~12% reduction in infant mortality. For example, in a country with a $50B GDP, this equates to approx. $500M and could potentially save 60,000 infants – or ~$8,300 per life saved.  
+  In per capita terms, this corresponds to just $10–15 per person per year in a low-income country — a potentially powerful message for policymakers and advocates.
 
-- **Limitations of GDP-only approach**: Misclassifications were most common among middle-income countries, where health investment patterns often vary independently of economic development. Adding health-specific features (e.g., immunization rates) may improve performance.
+- **GNP-based inequality**: Countries with high infant mortality had dramatically lower GNP per capita — median ~$550 compared to ~$11,000 in low-mortality countries — highlighting deeper structural inequalities not captured by GDP alone.
+
+- **Model accuracy**: Using GDP per capita alone, our supervised models achieved:  
+  – **Logistic Regression**: 79% accuracy  
+  – **Random Forest**: 84% accuracy  
+  Accuracy refers to correct classification of countries as high– or low–risk for infant mortality.
+
+- **Limitations of GDP–only approach**: Misclassifications were most common among middle–income countries, where health investment patterns often vary independently of economic development. Adding health-specific features (e.g., immunization rates) may improve performance.
+
 
 ---
 
