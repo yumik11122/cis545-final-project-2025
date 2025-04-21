@@ -85,7 +85,7 @@ Our analysis reveals a **strong negative correlation (r = -0.43)** between GDP p
 .
 ├── 545-Group-Project-v4.ipynb            # Final project notebook
 ├── data/
-│   ├── WDICSV.csv                        # World Bank indicators (cleaned)
+│   ├── WDICSV.csv                        # World Bank indicators
 │   └── full_country_region_mapping.csv   # Country-to-region mapping
 └── README.md                             # This file
 ```
