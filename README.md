@@ -20,7 +20,7 @@ Thank you so much in advance!
 
 Global health inequality remains one of the most pressing challenges of our time. While some countries have made significant progress in healthcare, others continue to face high infant mortality, limited access to care, and poor health outcomes.
 
-This project investigates how economic indicators — particularly GDP per capita — relate to infant mortality and other health outcomes across 258 countries and regions, using World Bank data from 1960 to 2015. 
+This project investigates how economic indicators -- particularly GDP per capita -- relate to health outcomes across 258 countries and regions, using World Bank data spanning from 1960 to 2015. We place special emphasis on infant mortality as a key metric of national health.
 
 We apply a combination of:
 - Exploratory Data Analysis (EDA)
@@ -29,10 +29,17 @@ We apply a combination of:
 
 Our analysis reveals a **strong negative correlation (r = -0.43)** between GDP per capita and infant mortality. Both machine learning models confirm that GDP per capita alone is a powerful predictor of countries with high infant mortality rates (≥ 40 deaths per 1,000 live births), with **Random Forest achieving 84% accuracy**.
 
-### Key Insights
-- Countries in the lowest income quartile have significantly higher infant mortality.
-- Increased education spending is associated with lower infant mortality, even at similar income levels.
-- Adolescent fertility, life expectancy, and immunization rates further help distinguish country-level health disparities.
+### Key Findings
+- **Clear economic-health link**: Our exploratory analysis confirmed a strong negative relationship between GDP per capita and infant mortality, using World Bank data across 258 countries and regions from 1960 to 2015.
+
+- **Policy-relevant impact**: Among the lowest-GDP countries, diverting just 1% of GDP toward healthcare was associated with a ~12% reduction in infant mortality. For example, in a country with a $50B GDP, this equates to approx. $500M and could potentially save 60,000 infants — or ~$8,300 per life saved.
+
+- **Model accuracy**: Using GDP per capita alone, our supervised models achieved:
+  - **Logistic Regression**: 79% accuracy  
+  - **Random Forest**: 84% accuracy  
+  Accuracy refers to correct classification of countries as high- or low-risk for infant mortality.
+
+- **Limitations of GDP-only approach**: Misclassifications were most common among middle-income countries, where health investment patterns often vary independently of economic development. Adding health-specific features (e.g., immunization rates) may improve performance.
 
 ---
 
@@ -47,7 +54,6 @@ Our analysis reveals a **strong negative correlation (r = -0.43)** between GDP p
 └── README.md                             # This file
 ```
 
-
 > Note: Due to GitHub size limits, the original World Bank dataset (`WDICSV.csv`, ~195MB) is **not included**.  
 > You can download it from:  
 > [World Bank WDI Dataset - Data Catalog](https://datacatalog.worldbank.org/search/dataset/0037712/World-Development-Indicators)
@@ -57,9 +63,11 @@ Our analysis reveals a **strong negative correlation (r = -0.43)** between GDP p
 ## How to Run
 
 1. Clone or download this repository.
-2. Ensure the `data/` directory contains the required `.csv` files.
-3. Open `545-Group-Project-v4.ipynb` in Jupyter Notebook or Google Colab.
-4. Run all cells to reproduce the analysis and visualizations.
+2. Make sure the `data/` directory includes the following files:
+   - WDICSV.csv
+   - full_country_region_mapping.csv
+3. Open the notebook (`.ipynb` file) using Jupyter Notebook or Google Colab.
+4. Run all cells from top to bottom to reproduce the analysis and visualizations.
 
 ---
 
