@@ -90,9 +90,9 @@ Our analysis reveals a **strong negative correlation (r = -0.43)** between GDP p
 └── README.md                             # This file
 ```
 
-> Note: Due to GitHub size limits, the original World Bank dataset (`WDICSV.csv`, ~195MB) is **not included**.  
-> You can download it from:  
-> [World Bank WDI Dataset - Data Catalog](https://datacatalog.worldbank.org/search/dataset/0037712/World-Development-Indicators)
+Note: Due to GitHub size limits, the original World Bank dataset (`WDICSV.csv`, ~195MB) is **not included**.  
+You can download it from:  
+[World Bank WDI Dataset - Data Catalog](https://datacatalog.worldbank.org/search/dataset/0037712/World-Development-Indicators)
 
 ---
 
