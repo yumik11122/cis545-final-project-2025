@@ -98,11 +98,15 @@ Our analysis reveals a **strong negative correlation (r = -0.43)** between GDP p
 
 ## How to Run
 
+Option 1:
+1. Click on the Notebook (.ipynb) saved on this repository. It's already been run, so you can see the visualizations without needing to run it again.
+
+Option 2:
 1. Clone or download this repository.
 2. Make sure the `data/` directory includes the following files:
-   - WDICSV.csv
+   - WDICSV.csv (to be downloaded via World Bank link above)
    - full_country_region_mapping.csv
-3. Open the notebook (`.ipynb` file) using Jupyter Notebook or Google Colab.
+3. Open the notebook (`.ipynb` file) using Jupyter Notebook or Google Colab. Save both WDICSV.csv and full_country_region_mapping.csv into Files. 
 4. Run all cells from top to bottom to reproduce the analysis and visualizations.
 
 ---
