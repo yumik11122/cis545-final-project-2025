@@ -48,13 +48,13 @@ Our analysis reveals a **strong negative correlation (r = -0.43)** between GDP p
 ### **Cluster Analysis Insights**
 - K-means clustering revealed distinct country groupings based on health and economic indicators:
 
- - Cluster 1 (High-income countries): Characterized by high GDP per capita (~$35,000), low infant mortality (~5 per 1,000), and strong healthcare infrastructure
+  - Cluster 1 (High-income countries): Characterized by high GDP per capita (~$35,000), low infant mortality (~5 per 1,000), and strong healthcare infrastructure
 
- - Cluster 2 (Middle-income countries): Moderate GDP (~$5,000), improving health metrics, but variable healthcare access
+  - Cluster 2 (Middle-income countries): Moderate GDP (~$5,000), improving health metrics, but variable healthcare access
 
- - Cluster 3 (Low-income countries): Very low GDP (~$500), high infant mortality (~80 per 1,000), and limited healthcare resources
+  - Cluster 3 (Low-income countries): Very low GDP (~$500), high infant mortality (~80 per 1,000), and limited healthcare resources
 
- - Cluster 4 (Transitional economies): Countries showing rapid improvement in health metrics despite modest economic growth
+  - Cluster 4 (Transitional economies): Countries showing rapid improvement in health metrics despite modest economic growth
 
 
 ### **Limitations**
