@@ -33,8 +33,9 @@ Our analysis reveals a **strong negative correlation (r = -0.43)** between GDP p
 
 - **Clear economic–health link**: Our exploratory analysis confirmed a strong negative relationship between GDP per capita and infant mortality, using 258 unique World Bank country codes and more than 50 years of global health data (1960–2015).
 
-- **Policy-relevant impact**: Among the lowest–GDP countries, diverting just 1% of GDP toward healthcare was associated with a ~12% reduction in infant mortality. For example, in a country with a $50B GDP, this equates to approx. $500M and could potentially save 60,000 infants -- or ~$8,300 per life saved.  
-  In per capita terms, this corresponds to just $10–15 per person per year in a low-income country -- a potentially powerful message for policymakers and advocates.
+- **Policy-relevant impact**: Among the lowest–GDP countries, diverting just 1% of GDP toward healthcare was associated with a ~12% reduction in infant mortality.
+  - *Example*: In a country with a $50B GDP, this equates to approx. $500M and could potentially save 60,000 infants -- or ~$8,300 per life saved.
+  - *Per capita terms*: This corresponds to just $10–15 per person per year in a low-income country -- a potentially powerful message for policymakers and advocates.
 
 - **GNP-based inequality**: Countries with high infant mortality had dramatically lower GNP per capita -- median ~$550 compared to ~$11,000 in low-mortality countries -- highlighting deeper structural inequalities not captured by GDP alone. This additional lens helped improve our understanding and interpretation of borderline economies.
 
