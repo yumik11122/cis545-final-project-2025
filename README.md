@@ -5,17 +5,6 @@
 This project was completed as part of the **CIS 5450 Big Data Analytics course** at the University of Pennsylvania (Spring 2025), by a team of 3 students (names withheld for privacy).
 
 ---
-
-## Review Request
-
-This is my first time uploading a project to GitHub. While I’ve used GitHub for coursework submissions, I’m still new to collaboration features like Pull Requests.
-
-If you have a moment, I’d greatly appreciate any feedback on the overall structure, flow, and analysis presented in this notebook.
-
-Thank you so much in advance!
-
----
-
 ## Overview
 
 Global health inequality remains a persistent global challenge. While some countries have made significant progress in healthcare, others continue to face high infant mortality, limited access to care, and poor health outcomes.
